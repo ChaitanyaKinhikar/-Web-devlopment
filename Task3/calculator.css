@@ -1,0 +1,52 @@
+.main-body
+{
+    background:hsl(122.34deg 63.73% 60% / 37%);
+    border: none;
+    border-radius: 5mm;
+    width: 200px;
+    align-content: center;
+    padding: 10px;
+}
+
+.but
+{
+    border-radius:10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    background-color: rgb(15 14 14 / 42%);
+    color: rgb(15, 14, 14);
+    font-style: italic;
+    font-size: medium;
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  ;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    width: 85%;
+    font-size: 33px;
+    color: darkblue;
+}
+body{
+    margin-left: 40%;
+}
+h1{
+margin-left: 25px;
+
+
+}
+.bg-color-yellow
+{
+background-color: rgb(243, 243, 156);
+}
+.but:hover{
+    font-size: 25px;
+    color:white;
+}

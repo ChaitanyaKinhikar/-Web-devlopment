@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator!!</h1>
+    </header>
+
+    <main>
+        <div class="main-body">
+
+            <div id="display">
+                <input type="text" id="in-dis" readonly>
+            </div>
+            <div class="button_container">
+                <button class="but bg-color-yellow sp-but" onclick="currentDisplay+='C';
+    currentDisplay='';
+   
+    updatedValue(); ">C</button>
+
+                <button class="but" onclick="currentDisplay+='1';
+    updatedValue();">1</button>
+
+                <button class="but" onclick="currentDisplay+='2';
+    updatedValue();">2</button>
+
+                <button class="but" onclick="currentDisplay+='+';
+    updatedValue();">+</button>
+
+                <button class="but" onclick="currentDisplay+='3';
+    updatedValue();">3</button>
+
+                <button class="but" onclick="currentDisplay+='4';
+    updatedValue();">4</button>
+
+                <button class="but" onclick="currentDisplay+='-';
+    updatedValue();">-</button>
+
+                <button class="but" onclick="currentDisplay+='5';
+    updatedValue();">5</button>
+
+                <button class="but" onclick="currentDisplay+='6';
+    updatedValue();">6</button>
+
+                <button class="but" onclick="currentDisplay+='*';
+    updatedValue();">*</button>
+
+                <button class="but" onclick="currentDisplay+='7';
+    updatedValue();">7</button>
+
+                <button class="but" onclick="currentDisplay+='8';
+    updatedValue();">8</button>
+
+                <button class="but" onclick="currentDisplay+='/';
+    updatedValue();">/</button>
+
+                <button class="but bg-color-yellow sp-but" onclick="
+    currentDisplay=eval(currentDisplay);
+    updatedValue();">=</button>
+
+                <button class="but" onclick="currentDisplay+='9';
+    updatedValue();">9</button>
+
+                <button class="but" onclick="currentDisplay+='0';
+    updatedValue();">0</button>
+
+                <button class="but" onclick="currentDisplay+='.';
+    updatedValue();">.</button>
+
+            </div>
+        </div>
+    </main>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
